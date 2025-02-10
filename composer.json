@@ -1,0 +1,14 @@
+{
+    "name": "absensi/kajian-kitab",
+    "description": "Sistem Absensi Kajian Kitab PP. Annuqayah",
+    "type": "project",
+    "require": {
+        "php": "^8.0",
+        "ext-pdo": "*"
+    },
+    "autoload": {
+        "psr-4": {
+            "Absensi\\": "src/"
+        }
+    }
+}
